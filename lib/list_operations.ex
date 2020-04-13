@@ -10,5 +10,9 @@ defmodule ListOperations do
   - reduce
   - Keywords list
   - IO list
+
+  More details :
+  https://hexdocs.pm/elixir/List.html#content
+  https://devhints.io/elixir
   """
 end

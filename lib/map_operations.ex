@@ -1,6 +1,6 @@
 defmodule MapOperations do
   @moduledoc """
-    This module show some map operations examples :
+  This module show some map operations examples :
     - init
     - value for key
     - fetch & fetch!
@@ -9,5 +9,9 @@ defmodule MapOperations do
     - delete an element
     - MapSet
 
+  More details :
+  https://hexdocs.pm/elixir/Map.html#content
+  https://hexdocs.pm/elixir/MapSet.html#content
+  https://devhints.io/elixir
   """
 end
