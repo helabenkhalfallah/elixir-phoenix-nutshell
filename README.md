@@ -17,7 +17,6 @@ Launch code analysis (credo, dialyzer) :
 mix code_review
 ```
 
-
 Generate docs & docs coverage :
 
 ```
@@ -291,3 +290,49 @@ defmodule OperatorsTypesCond do
   puts('Age2 : #{age2}')
 end
 ```
+
+# List 
+
+```
+defmodule ListOperations do
+  @moduledoc """
+  This module show some list operations examples :
+  - enumerate elements
+  - get element at position
+  - replace at position
+  - insert at position
+  - map
+  - filter
+  - reduce
+  - Keywords list
+  - IO list
+
+  More details :
+  https://hexdocs.pm/elixir/List.html#content
+  https://devhints.io/elixir
+  """
+end
+```
+
+# Map & MapSet
+
+```
+defmodule MapOperations do
+  @moduledoc """
+  This module show some map operations examples :
+    - init
+    - value for key
+    - fetch & fetch!
+    - store an element
+    - update an element
+    - delete an element
+    - MapSet
+
+  More details :
+  https://hexdocs.pm/elixir/Map.html#content
+  https://hexdocs.pm/elixir/MapSet.html#content
+  https://devhints.io/elixir
+  """
+end
+```
+
