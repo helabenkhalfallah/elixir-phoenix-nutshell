@@ -1,3 +1,2 @@
 defmodule OperatorsTypesCond do
-
 end

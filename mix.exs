@@ -9,7 +9,9 @@ defmodule ElixirPhoenixNutshell.MixProject do
       ],
       code_review: [
         "dialyzer",
-        "credo --strict",
+        "credo --strict"
+      ],
+      generate_docs: [
         "docs",
         "inch"
       ]
