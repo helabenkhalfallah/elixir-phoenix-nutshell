@@ -1,28 +1,46 @@
 # Commands
 
-Compile project :
+```elixir
+  def aliases do
+    [
+      test_ci: [
+        "test",
+        "coveralls"
+      ],
+      code_review: [
+        "dialyzer",
+        "credo --strict"
+      ],
+      generate_docs: [
+        "docs",
+        "inch"
+      ]
+    ]
+  end
 ```
+
+Compile project :
+```shell script
 mix compile
 ```
 
 Format file :
-```
+```shell script
 mix format
 ```
 
 Launch code analysis (credo, dialyzer) :
-```
+```shell script
 mix code_review
 ```
 
 Generate docs & docs coverage :
-
-```
+```shell script
 mix generate_docs
 ```
 
 Run unit tests & collect coverage :
-```
+```shell script
 MIX_ENV=test mix test_ci
 ```
 
