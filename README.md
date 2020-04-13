@@ -1,3 +1,31 @@
+# Documentation 
+
+## Links :
+
+https://elixir-lang.org/getting-started/introduction.html
+
+https://hexdocs.pm/elixir/Kernel.html
+
+https://elixirschool.com/en/
+
+https://learnxinyminutes.com/docs/elixir/
+
+https://devhints.io/elixir
+
+## Books 
+
+- Adopting Elixir 
+
+https://pragprog.com/book/tvmelixir/adopting-elixir
+
+- Elixir in action 
+
+https://www.manning.com/books/elixir-in-action-second-edition
+
+- Programming Elixir 1.6
+
+https://pragprog.com/book/elixir16/programming-elixir-1-6
+
 # Commands
 
 ```elixir
